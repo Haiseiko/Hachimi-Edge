@@ -472,8 +472,8 @@ skill_data_desc:
           "31": "Opponent used +Acceleration skill"
       is_temptation:
         eq:
-          "0": "Not rushing"
-          "1": "Rushing"
+          "0": "흥분상태가 아니거나 자제심이 터졌다면"
+          "1": "흥분상태이거나 자제심이 불발이라면"
       motivation:
         eq:
           "4": "Motivation High"
@@ -532,17 +532,17 @@ skill_data_desc:
           "2": "CCW track"
       running_style:
         eq:
-          "1": "Runner"
-          "2": "Leader"
-          "3": "Betweener"
-          "4": "Chaser"
+          "1": "도주/대도주"
+          "2": "선행"
+          "3": "선입"
+          "4": "추입"
       season:
         eq:
-          "1": "Spring"
-          "2": "Summer"
-          "3": "Autumn"
-          "4": "Winter"
-          "5": "Sakura season (20 march to 20 april)"
+          "1": "봄"
+          "2": "여름"
+          "3": "가을"
+          "4": "겨울"
+          "5": "벛꽃철 (3/20~4/20)"
       slope:
         eq:
           "0": "Flat"
@@ -550,10 +550,10 @@ skill_data_desc:
           "2": "Downhill"
       weather:
         eq:
-          "1": "Sun"
-          "2": "Clouds"
-          "3": "Rain"
-          "4": "Snow"
+          "1": "맑음"
+          "2": "흐림"
+          "3": "비"
+          "4": "눈"
     fixed:
       all_corner_random:
         eq: "Any corner"
@@ -567,7 +567,7 @@ skill_data_desc:
       down_slope_random:
         eq: "Downhill"
       grade:
-        eq: "G1 race"
+        eq: "국제 중상 1급"
       is_activate_any_skill:
         eq: "Used any skill"
       is_activate_heal_skill:
