@@ -406,11 +406,11 @@ skill_data_desc:
       "10202": "산타 아니타 경마공원(산타 아니타 파크)"
       "10203": "델마"
     same_skill_horse_count:
-      unique: "Only you have this skill"
-      count: "%{v} runners have this skill"
+      unique: "아무도 가지고 있지 한다면"
+      count: "%{v} 주자가 스킬을 가지고 있다면"
     near_infront_count:
-      none: "Nobody right in front"
-      count: "%{v} opponents right in front"
+      none: "앞에 아무 주자도 없다면"
+      count: "%{v} 주자가 선두에 있다면"
     furlong: "Furlong %{v}"
     used_skill:
       "203781": "Used skill Impulse"
@@ -428,34 +428,34 @@ skill_data_desc:
     enum:
       distance_type:
         eq:
-          "1": "Sprint"
-          "2": "Mile"
-          "3": "Medium"
-          "4": "Long"
+          "1": "단거리"
+          "2": "펄롱"
+          "3": "중거리"
+          "4": "장거리"
       ground_type:
         eq:
-          "1": "Turf"
-          "2": "Dirt"
+          "1": "잔디"
+          "2": "더트/모래"
       is_abroad:
         eq:
-          "0": "Not abroad"
-          "1": "Abroad"
+          "0": "국내라면"
+          "1": "해외 원정중이라면"
       is_activate_other_skill_detail:
         eq:
-          "1": "Activated trigger 1"
-          "2": "Activated trigger 2"
+          "1": "발동 조건 1"
+          "2": "발동 조건 2"
       is_badstart:
         eq:
-          "0": "Start not bad"
-          "1": "Late start"
+          "0": "늦출이 아니라면"
+          "1": "늦출이거나 컨센트레이션이 불발됐다면"
       is_basis_distance:
         eq:
-          "0": "Non-core distance"
-          "1": "Core distance"
+          "0": "일반 거리"
+          "1": "주요 거리"
       is_finalcorner:
         eq:
-          "0": "Not final corner/straight"
-          "1": "Final corner/straight"
+          "0": "초반,중반이라면"
+          "1": "제 4코너,폴스 스트레치,제 5코너(폴스 스트레치가 있는 경우),최종직선 이라면"
       is_goodstart:
         eq:
           "0": "Not a good start"
