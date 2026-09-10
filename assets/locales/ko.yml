@@ -242,6 +242,48 @@ config_editor:
   trainer_live_landscape: "Meni Shuki live에서 landscape 모드로 보기"
   force_orientation_mode: "Force orientation mode"
   race_playback_slider_always: "경기중 항상 하단에 슬라이더바 표시"
+skill_data_desc:
+  group:
+    duration: "for %{v} s"
+    immediate: "immediately"
+    long_negative: "for 500 s"
+    indefinite: "indefinitely"
+    cd: " (CD %{v}s)"
+    when: " when: "
+    after: " <color=#29b39e>after</color>: "
+  sep:
+    or: " OR "
+    and: " AND "
+    star: " * "
+    to: " to "
+  effect:
+    name:
+      speed_stat: "Speed stat"
+      stamina_stat: "Stamina stat"
+      power_stat: "Power stat"
+      guts_stat: "Guts stat"
+      wit_stat: "Wit stat"
+      field_of_view: "Field of View"
+      current_hp: "Current HP"
+      rushed_time: "Rushed Time"
+      delay_start: "Delay Start"
+      current_speed: "Current Speed"
+      current_speed_natural_decel: "Current Speed (natural decel)"
+      target_speed: "Target Speed"
+      lane_movement_speed: "Lane Movement Speed"
+      rushed_chance: "Rushed Chance"
+      acceleration: "Acceleration"
+      all_stats: "All stats"
+      target_lane: "Target Lane"
+      activate_rare_skill: "Activate Rare Skill"
+      special: "Special"
+      event_specific: "Event-specific"
+    unit:
+      stat: ""
+      deg: " °"
+      percent: "%"
+      second: " s"
+      mps: " m/s"
 
 theme_editor:
   title: "GUI Theme Editor"
